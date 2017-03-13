@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia</title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/default.js"></script>
+</head>
+<body>
+    <video width="320" height="240" controls >
+        <source src="media/hello2.mp4" />
+       
+        You need a browser that supports HTML5!
+    </video>
+    <br />
+    <p>
+    <audio controls="controls">
+        <source src="song.mp3" />
+        You need a browser that supports HTML5!
+    </audio>
+    <audio controls="controls" >
+        <source src="media/unsolved_mysteries.mp3" type="audio/mpeg" />
+    </audio>
+
+    </p><br />
+
+    <h2>Sample MediaElement</h2>
+    <video id="media" height="480">
+        <!--<source src="eagle.webm" type='video/webm; codecs="vorbis, vp8"' />
+        <source src="eagle.ogv" type='video/ogg; codecs="theora, vorbis"' />-->
+        <source src="media/hello2.mp4" type='video/mp4' />
+        <!--<track id="englishtrack" kind="subtitles" src="captions.vtt"-->
+               srclang="en" label="English" default="" />
+    </video>
+    <br />
+    <button type="button" id="play">Play</button>
+</body>
+</html>
